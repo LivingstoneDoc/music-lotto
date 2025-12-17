@@ -1,0 +1,12 @@
+.audioWrapper {
+    opacity: 0;
+    transition: all 0.3s
+}
+
+.audioWrapper:hover {
+    opacity: 1;
+}
+
+.audioWrapper audio {
+    width: 500px;
+}
