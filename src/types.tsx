@@ -1,16 +1,23 @@
-import type { ButtonProps } from "@mui/material"
-
-export type ButtonColor = ButtonProps['color'];
+export interface StylesProps {
+    color?: string,
+    backgroundColor?: string,
+    shadow?: string,
+    hoverShadow?: string,
+    border?: string,
+    position?: 'static' | 'relative' | 'absolute' | 'fixed' | 'sticky',
+    top?: string
+}
 
 export interface SongButtonProps {
     title: string,
-    color: ButtonColor,
+    stylesClass: StylesProps,
     onClick: () => void
 }
 
 export interface ButtonsPanelProps {
     onClick: (id: number) => void,
-    selectedSongsIds: number[]
+    selectedSongsIds: number[],
+    getStylesBySongId: (id: number, isSelected: boolean) => StylesProps
 }
 
 export interface AudioPlayerProps {
@@ -36,13 +43,15 @@ export interface PlayerProps {
     audioSource: string,
     videoSource: string,
     text: string,
-    onClick: () => void
+    onClick: () => void,
+    cardStyles: StylesProps
 }
 
 export interface MusicInfoProps {
     cover: string, 
     singer: string, 
-    title: string
+    title: string,
+    styles: StylesProps
 }
 
 export interface MusicTextProps {

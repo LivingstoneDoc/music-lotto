@@ -1,7 +1,7 @@
 import { Box, Card, CardMedia, Typography } from "@mui/material";
 import type { MusicInfoProps } from "../types";
 
-export function SongCard({cover, singer, title}: MusicInfoProps) {
+export function SongCard({cover, singer, title, styles}: MusicInfoProps) {
     return (
         <Card 
             sx={{
@@ -12,6 +12,8 @@ export function SongCard({cover, singer, title}: MusicInfoProps) {
                 flex: 1,
                 padding: '15px',
                 borderRadius: '8px',
+                backgroundColor: styles.backgroundColor,
+                boxShadow: styles.shadow
             }}
         >
             <CardMedia
@@ -19,11 +21,11 @@ export function SongCard({cover, singer, title}: MusicInfoProps) {
                 height="auto"
                 image={cover}
                 alt={title}
-                sx={{borderRadius: '8px', width: '500px'}}
+                sx={{borderRadius: '8px', width: '500px', height: '500px'}}
             />
             <Box sx={{display: 'flex', flexDirection: 'column', gap: '15px'}}>
-                <Typography variant="h3" color='primary' sx={{fontSize: '30px', textAlign: 'center'}}>{singer}</Typography>
-                <Typography variant="h4" color='info' sx={{fontSize: '26px', textAlign: 'center'}}>{title}</Typography>
+                <Typography variant="h3" sx={{fontSize: '50px', textAlign: 'center', color: '#8b0000'}}>{singer}</Typography>
+                <Typography variant="h4" sx={{fontFamily: 'Pacifico', fontSize: '40px', textAlign: 'center', color: '#8b0000'}}>{title}</Typography>
             </Box>
         </Card>
     );

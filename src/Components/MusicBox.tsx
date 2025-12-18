@@ -4,6 +4,7 @@ import { ButtonsPanel } from "./ButtonsPanel";
 // import { VideoPlayer } from "./VideoPlayer";
 import { musicData } from "../data";
 import { Player } from "./Player";
+import { getStylesBySongId } from "../utils";
 
 export function MusicBox() {
     const [selectedSongsIds, setSelectedSongsIds] = useState<number[]>([]);
@@ -21,14 +22,27 @@ export function MusicBox() {
     }
     if (currentSongId === null || !currentSong) {
         return (
-            <ButtonsPanel onClick={handleSongButtonClick} selectedSongsIds={selectedSongsIds}/>
+            <ButtonsPanel onClick={handleSongButtonClick} selectedSongsIds={selectedSongsIds} getStylesBySongId={getStylesBySongId}/>
         );
     }
+
+    const isSelected = selectedSongsIds.includes(currentSong.id);
+    const currentStyles = getStylesBySongId(currentSong.id, isSelected);
+
     return (
         <>
             {/* <AudioPlayer singer={currentSong.singer} title={currentSong.name} cover={currentSong.cover} source={currentSong.source} onClick={handleClickBackButton}/> */}
             {/* <VideoPlayer cover={currentSong.cover} singer={currentSong.singer} title={currentSong.name} source={currentSong.videoSource} text={currentSong.musicText} onClick={handleClickBackButton}/> */}
-            <Player cover={currentSong.cover} singer={currentSong.singer} title={currentSong.name} audioSource={currentSong.audioSource} videoSource={currentSong.videoSource} text={currentSong.musicText} onClick={handleClickBackButton}/>
+            <Player 
+                cover={currentSong.cover} 
+                singer={currentSong.singer} 
+                title={currentSong.name} 
+                audioSource={currentSong.audioSource} 
+                videoSource={currentSong.videoSource} 
+                text={currentSong.musicText} 
+                onClick={handleClickBackButton}
+                cardStyles={currentStyles}
+            />
         </>
     );
 }

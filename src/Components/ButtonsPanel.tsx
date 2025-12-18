@@ -1,13 +1,13 @@
 import { Box } from "@mui/material";
 import { musicData } from "../data";
 import { SongButton } from "./SongButton";
-import type { ButtonColor, ButtonsPanelProps } from "../types";
+import type { ButtonsPanelProps } from "../types";
 
-export function ButtonsPanel({onClick, selectedSongsIds}: ButtonsPanelProps) {
+export function ButtonsPanel({onClick, selectedSongsIds, getStylesBySongId}: ButtonsPanelProps) {
     return (
         <Box 
             sx={{
-                marginTop: '50px',
+                marginTop: '10px',
                 display: 'flex',
                 justifyContent: 'center',
                 gap: '40px',
@@ -16,14 +16,15 @@ export function ButtonsPanel({onClick, selectedSongsIds}: ButtonsPanelProps) {
         >
             {musicData.map(musicItem => {
                 const isSelectedSong = selectedSongsIds.includes(musicItem.id);
-                let color: ButtonColor = 'primary';
-                if (isSelectedSong && musicItem.id <= 10) {
-                    color = 'success'
-                } else if (isSelectedSong && musicItem.id >= 11 && musicItem.id <= 20) {
-                    color = 'secondary'
-                }
+                const stylesClass = getStylesBySongId(musicItem.id, isSelectedSong);
+                
                 return (
-                    <SongButton key={musicItem.id} title={String(musicItem.id)} color={color} onClick={() => {onClick(musicItem.id)}}/>
+                    <SongButton 
+                        key={musicItem.id} 
+                        title={String(musicItem.id)} 
+                        stylesClass={stylesClass} 
+                        onClick={() => {onClick(musicItem.id)}}
+                    />
                 );
             })}
         </Box>
