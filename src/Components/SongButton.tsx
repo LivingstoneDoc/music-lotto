@@ -11,18 +11,18 @@ export function SongButton({title, stylesClass, onClick}: SongButtonProps) {
             onClick={onClick} 
             sx={{
                 position: 'relative',
-                width: '100px',
-                height: '100px',
-                borderRadius: '100%', 
+                width: { xs: 60, md: 80, lg: 75, xl: 100 },
+                height: { xs: 60, md: 80, lg: 75, xl: 100 },
+                borderRadius: '50%',
                 color: stylesClass.color,
                 backgroundColor: stylesClass.backgroundColor,
                 fontFamily: 'Pacifico',
-                fontSize: '50px',
+                fontSize: { xs: 28, md: 36, lg: 38, xl: 50 },
                 border: stylesClass.border,
                 boxShadow: stylesClass.shadow,
                 transition: 'all 0.2s ease',
                 '&:hover': {
-                    boxShadow: hoverBoxShadow,
+                boxShadow: hoverBoxShadow,
                 },
             }}
         >

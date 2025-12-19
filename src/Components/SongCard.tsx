@@ -8,12 +8,13 @@ export function SongCard({cover, singer, title, styles}: MusicInfoProps) {
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: '10px',
+                gap: { xs: 1, md: 1.5 },
                 flex: 1,
-                padding: '15px',
+                p: { xs: 1.5, md: 2, xl: 3 },
                 borderRadius: '8px',
                 backgroundColor: styles.backgroundColor,
-                boxShadow: styles.shadow
+                boxShadow: styles.shadow,
+                maxWidth: { xs: '90vw', md: 400, xl: 500 }
             }}
         >
             <CardMedia
@@ -21,11 +22,42 @@ export function SongCard({cover, singer, title, styles}: MusicInfoProps) {
                 height="auto"
                 image={cover}
                 alt={title}
-                sx={{borderRadius: '8px', width: '500px', height: '500px'}}
+                sx={{
+                    borderRadius: '8px',
+                    width: { xs: '80vw', md: 380, lg: 440, xl: 550 },
+                    maxWidth: '100%',
+                    height: 'auto',
+                    maxHeight: { md: '50vh', xl: '60vh' }
+                }}
             />
-            <Box sx={{display: 'flex', flexDirection: 'column', gap: '15px'}}>
-                <Typography variant="h3" sx={{fontSize: '50px', textAlign: 'center', color: '#8b0000'}}>{singer}</Typography>
-                <Typography variant="h4" sx={{fontFamily: 'Pacifico', fontSize: '40px', textAlign: 'center', color: '#8b0000'}}>{title}</Typography>
+            <Box 
+                sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: { xs: 1, md: 2 }
+                }}
+            >
+                <Typography 
+                    variant="h3" 
+                    sx={{
+                        fontSize: { xs: 24, md: 36, xl: 48 },
+                        textAlign: 'center',
+                        color: '#8b0000'
+                    }}
+                >
+                    {singer}
+                </Typography>
+                <Typography 
+                    variant="h4" 
+                    sx={{
+                        fontFamily: 'Pacifico',
+                        fontSize: { xs: 20, md: 32, xl: 40 },
+                        textAlign: 'center',
+                        color: '#8b0000'
+                    }}
+                >
+                    {title}
+                </Typography>
             </Box>
         </Card>
     );
