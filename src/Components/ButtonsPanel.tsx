@@ -9,12 +9,12 @@ export function ButtonsPanel({onClick, selectedSongsIds, getStylesBySongId}: But
     return (
         <Box 
             sx={{
-                mt: isFullscreenLike ? 6 : { xs: 0.5, md: 1, lg: 0, xl: 7 },
+                mt: isFullscreenLike ? { xs: 1, md: 2, lg: 4, xl: 20 } : { xs: 0.5, md: 1, lg: 4, xl: 12 },
                 display: 'grid',
-                gridTemplateColumns: 'repeat(10, minmax(0, 1fr))',
+                gridTemplateColumns: 'repeat(8, minmax(0, 1fr))',
                 justifyItems: 'center',
-                rowGap: { xs: 1, md: 1.5, lg: 1.5, xl: 2 },
-                columnGap: { xs: 0.5, md: 1.5, lg: 1.5, xl: 2 },
+                rowGap: { xs: 1, md: 1.5, lg: 2.5, xl: 4 },
+                columnGap: { xs: 0.5, md: 1.5, lg: 2.5, xl: 4 },
                 maxWidth: '1920px',
                 mx: 'auto',
             }}
