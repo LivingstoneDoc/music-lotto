@@ -9,8 +9,7 @@ export function Header() {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                // paddingTop: { xs: 1, md: 1 },
-                paddingBottom: { xs: 1, md: 1 },
+                padding: { xs: 1, md: 1 },
                 minHeight: { xs: 70, md: 120 },
                 textAlign: 'center'
             }}

@@ -9,7 +9,7 @@ export function ButtonsPanel({onClick, selectedSongsIds, getStylesBySongId}: But
     return (
         <Box 
             sx={{
-                mt: isFullscreenLike ? 7 : { xs: 0.5, md: 1, lg: 0, xl: 5 },
+                mt: isFullscreenLike ? 6 : { xs: 0.5, md: 1, lg: 0, xl: 7 },
                 display: 'grid',
                 gridTemplateColumns: 'repeat(10, minmax(0, 1fr))',
                 justifyItems: 'center',
