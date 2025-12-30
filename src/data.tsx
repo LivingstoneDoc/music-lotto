@@ -1,27 +1,27 @@
 // const BASE_URL = import.meta.env.BASE_URL;
 
-const musicText = 
-    {
-        song1: `Now that the love is gone
-            What are we supposed to do?
-            After all that we've been through
-            When everything that felt so right is wrong
-            Now that the love is gone (love is gone)
-            What are we supposed to do?
-            After all that we've been through
-            When everything that felt so right is wrong
-            Now that the love is gone
-            There is nothing left to prove
-            No use to deny this simple truth
-            Can't find the reason to keep holding on
-            Now that the love is gone (love is gone)
-            Now that the love is gone
-            The love felt so right, so wrong
-            Now that the love is gone
-            I feel so hurt inside
-            Feel so hurt inside
-            Got to find a reason`
-    };
+// const musicText = 
+//     {
+//         song1: `Now that the love is gone
+//             What are we supposed to do?
+//             After all that we've been through
+//             When everything that felt so right is wrong
+//             Now that the love is gone (love is gone)
+//             What are we supposed to do?
+//             After all that we've been through
+//             When everything that felt so right is wrong
+//             Now that the love is gone
+//             There is nothing left to prove
+//             No use to deny this simple truth
+//             Can't find the reason to keep holding on
+//             Now that the love is gone (love is gone)
+//             Now that the love is gone
+//             The love felt so right, so wrong
+//             Now that the love is gone
+//             I feel so hurt inside
+//             Feel so hurt inside
+//             Got to find a reason`
+//     };
 
 export const musicData = [
     {
