@@ -30,7 +30,7 @@ export const musicData = [
         name: 'Кабы не было зимы', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Prostokvashino.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Kaby_ne_bylo_zimy.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Kaby_ne_bylo_zimy.mp4',
         musicText: ''
     },
     {
@@ -39,7 +39,7 @@ export const musicData = [
         name: 'Зима-холода', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Gubin.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Andrey_Gubin-Zima_kholoda.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Andrey_Gubin-Zima_kholoda.mp4',
         musicText: ''
     },
     {
@@ -48,7 +48,7 @@ export const musicData = [
         name: 'Зимняя вишня', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Varum.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Anzhelika_Varum-Zimnyaya_vishnya.mp4#t=00:00:24',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Anzhelika_Varum-Zimnyaya_vishnya.mp4#t=00:00:24',
         musicText: ''
     },
     {
@@ -57,7 +57,7 @@ export const musicData = [
         name: 'Опять метель',
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pugacheva.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Alla_Pugachova_i_Kristina_Orbakayte-Opyat_metel.mp4#t=00:00:37',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Alla_Pugachova_i_Kristina_Orbakayte-Opyat_metel.mp4#t=00:00:37',
         musicText: ''
     },
     {
@@ -66,7 +66,7 @@ export const musicData = [
         name: 'Зима в сердце', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Mishel.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Moya_Mishel-Zima_V_Serdce.mp4#t=00:00:09',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Moya_Mishel-Zima_V_Serdce.mp4#t=00:00:09',
         musicText: ''
     },
     {
@@ -75,7 +75,7 @@ export const musicData = [
         name: 'Снег', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Kirkorov.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Filipp_Kirkorov-Sneg.mp4#t=00:00:09',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Filipp_Kirkorov-Sneg.mp4#t=00:00:09',
         musicText: ''
     },
     {
@@ -84,7 +84,7 @@ export const musicData = [
         name: 'Синий иней', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Premyer_ministr.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Premyer_ministr-Siniy_iney.mp4#t=00:00:09',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Premyer_ministr-Siniy_iney.mp4#t=00:00:09',
         musicText: ''
     },
     {
@@ -93,7 +93,7 @@ export const musicData = [
         name: 'Белая зима', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Rotaru.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Sofiya_Rotaru-Belaya_zima.mp4#t=00:00:19',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Sofiya_Rotaru-Belaya_zima.mp4#t=00:00:19',
         musicText: ''
     },
     {
@@ -102,7 +102,7 @@ export const musicData = [
         name: 'Дельфин и русалка', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Nikolaev.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Igor_Nikolaev-Delfin_i_rusalka_feat_Natasha_Korole.mp4#t=00:00:04',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Igor_Nikolaev-Delfin_i_rusalka_feat_Natasha_Korole.mp4#t=00:00:04',
         musicText: ''
     },
     {
@@ -111,7 +111,7 @@ export const musicData = [
         name: 'Солнышко в руках', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Demo.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Demo-Solnyshko_v_rukakh.mp4#t=00:00:40',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Demo-Solnyshko_v_rukakh.mp4#t=00:00:40',
         musicText: ''
     },
     {
@@ -120,7 +120,7 @@ export const musicData = [
         name: 'Ветер с моря дул', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Natali.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Natali-Veter_s_morya_dul.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Natali-Veter_s_morya_dul.mp4',
         musicText: ''
     },
     {
@@ -129,7 +129,7 @@ export const musicData = [
         name: 'Посмотри в глаза', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Natalya-Vetlitskaya.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Natalya_Vetlickaya-Posmotri_v_glaza.mp4#t=00:00:26',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Natalya_Vetlickaya-Posmotri_v_glaza.mp4#t=00:00:26',
         musicText: ''
     },
     {
@@ -138,7 +138,7 @@ export const musicData = [
         name: 'Не дано', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Hi-fi.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Hi-Fi-Ne_dano.mp4#t=00:00:29',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Hi-Fi-Ne_dano.mp4#t=00:00:29',
         musicText: ''
     },
     {
@@ -147,7 +147,7 @@ export const musicData = [
         name: 'Ты меня не ищи', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Virus.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Virus-Ty_menya_ne_ishhi.mp4#t=00:00:25',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Virus-Ty_menya_ne_ishhi.mp4#t=00:00:25',
         musicText: ''
     },
     {
@@ -156,7 +156,7 @@ export const musicData = [
         name: 'Я это ты', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Nasyrov.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Murat_Nasyrov-Ya_jeto_ty.mp4#t=00:00:29',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Murat_Nasyrov-Ya_jeto_ty.mp4#t=00:00:29',
         musicText: ''
     },
     {
@@ -165,7 +165,7 @@ export const musicData = [
         name: 'Тополиный пух', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Ivanushki.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Ivanushki_International-Topolinyjj_pukh.mp4#t=00:00:07',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Ivanushki_International-Topolinyjj_pukh.mp4#t=00:00:07',
         musicText: ''
     },
     {
@@ -183,7 +183,7 @@ export const musicData = [
         name: 'Если б я был султан', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Sultan.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Sultan.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Sultan.mp4',
         musicText: ''
     },
     {
@@ -192,7 +192,7 @@ export const musicData = [
         name: 'Звенит январская вьюга', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Zvenit.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Zvenit_vyga.mp4#t=00:00:04',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Zvenit_vyga.mp4#t=00:00:04',
         musicText: ''
     },
     {
@@ -201,7 +201,7 @@ export const musicData = [
         name: 'Ищу тебя', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Ishhy.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Ishhu_tebya.mp4#t=00:00:11',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Ishhu_tebya.mp4#t=00:00:11',
         musicText: ''
     },
     {
@@ -210,7 +210,7 @@ export const musicData = [
         name: 'На Тихорецкую', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Tihoreckaya.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Na_Tikhoreckuyu.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Na_Tikhoreckuyu.mp4',
         musicText: ''
     },
     {
@@ -219,7 +219,7 @@ export const musicData = [
         name: 'Песенка о медведях', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Medvedi.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pesenka_o_medvedyah.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Pesenka_o_medvedyah.mp4',
         musicText: ''
     },
     {
@@ -228,7 +228,7 @@ export const musicData = [
         name: 'Проснись и пой', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Prosnis.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Prosnis_i_poi.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Prosnis_i_poi.mp4',
         musicText: ''
     },
     {
@@ -237,7 +237,7 @@ export const musicData = [
         name: 'Разговор со счастьем', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Razgovor.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Razgovor_so_schastem.mp4',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Razgovor_so_schastem.mp4',
         musicText: ''
     },
     {
@@ -246,7 +246,7 @@ export const musicData = [
         name: 'Песенка о снежинке', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/kf_Charodei.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/kf_CHarodei-Pesenka_o_snezhinke.mp4#t=00:00:07',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_kf_CHarodei-Pesenka_o_snezhinke.mp4#t=00:00:07',
         musicText: ''
     },
     {
@@ -255,7 +255,7 @@ export const musicData = [
         name: 'Новогодняя', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Diskoteka_Avariya.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Diskoteka_Avariya-Novogodnyaya.mp4#t=00:00:08',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Diskoteka_Avariya-Novogodnyaya.mp4#t=00:00:08',
         musicText: ''
     },
     {
@@ -264,7 +264,7 @@ export const musicData = [
         name: 'Расскажи, Снегурочка', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Rasskazhi_Snegurochka.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Rasskazhi_Snegurochka.mp4#t=00:00:08',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Rasskazhi_Snegurochka.mp4#t=00:00:08',
         musicText: ''
     },
     {
@@ -273,7 +273,7 @@ export const musicData = [
         name: 'Новогодняя', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Verka_Serdyuchka.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Verka_Serdyuchka-Novogodnyaya.mp4#t=00:00:04',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Verka_Serdyuchka-Novogodnyaya.mp4#t=00:00:04',
         musicText: ''
     },
     {
@@ -282,7 +282,7 @@ export const musicData = [
         name: 'Новый год', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Steklovata.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Steklovata-Novyjj_god.mp4#t=00:00:21',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Steklovata-Novyjj_god.mp4#t=00:00:21',
         musicText: ''
     },
     {
@@ -291,7 +291,7 @@ export const musicData = [
         name: 'Last Christmas', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Wham.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Wham-Last_Cristmas.mp4#t=00:00:10',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Wham-Last_Cristmas.mp4#t=00:00:10',
         musicText: ''
     },
     {
@@ -300,7 +300,7 @@ export const musicData = [
         name: 'Happy New Year', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Abba.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/ABBA-Happy_New_Year.mp4#t=00:00:07',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_ABBA-Happy_New_Year.mp4#t=00:00:07',
         musicText: ''
     },
     {
@@ -309,7 +309,7 @@ export const musicData = [
         name: 'Новогодние игрушки', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Inna_Malikova.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Inna_Malikova_Novye_Samocvety-Novogodnie_igrushki.mp4#t=00:00:27',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Inna_Malikova_Novye_Samocvety-Novogodnie_igrushki.mp4#t=00:00:27',
         musicText: ''
     }
 ];
