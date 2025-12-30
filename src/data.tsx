@@ -28,7 +28,7 @@ export const musicData = [
         id: 1, 
         singer: 'М/ф Простоквашино', 
         name: 'Кабы не было зимы', 
-        cover: `${BASE_URL}/img/Prostokvashino.jpg`, 
+        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Prostokvashino.jpg', 
         audioSource: '',
         videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Kaby_ne_bylo_zimy.mp4',
         musicText: ''
