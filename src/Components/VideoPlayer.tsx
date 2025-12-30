@@ -10,7 +10,7 @@ export function VideoPlayer({videoSource}: VideoPlayerProps) {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'flex-start',
-                maxWidth: '1300px'
+                maxWidth: '1000px'
             }}
         >
             <ReactPlayer
@@ -20,7 +20,7 @@ export function VideoPlayer({videoSource}: VideoPlayerProps) {
                 width="100%"
                 height="auto"
                 style={{
-                    maxWidth: '1300px',
+                    maxWidth: '1000px',
                     borderRadius: '8px'
                 }}
             />

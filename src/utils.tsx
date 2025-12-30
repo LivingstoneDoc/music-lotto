@@ -14,7 +14,7 @@ export function getStylesBySongId(id: number, isSelected: boolean): StylesProps 
         return baseStyles;
     }
 
-    if (id <= 10) {
+    if (id <= 8) {
         return {
             color: '#8b0000',
             backgroundColor: '#FFCBDB',
@@ -22,7 +22,7 @@ export function getStylesBySongId(id: number, isSelected: boolean): StylesProps 
             position: 'absolute',
             top: '0px'
         };
-    } else if (id <= 20) {
+    } else if (id <= 16) {
         return {
             color: '#8b0000',
             backgroundColor: '#BDECB6',
@@ -31,7 +31,7 @@ export function getStylesBySongId(id: number, isSelected: boolean): StylesProps 
             top: '0px'
         };
     }
-    else if (id <= 30) {
+    else if (id <= 24) {
         return {
             color: '#8b0000',
             backgroundColor: '#E0B0FF',
@@ -40,7 +40,7 @@ export function getStylesBySongId(id: number, isSelected: boolean): StylesProps 
             top: '0px'
         };
     }
-    else if (id <= 40) {
+    else if (id <= 32) {
         return {
             color: '#8b0000',
             backgroundColor: '#FFCA86',
