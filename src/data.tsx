@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.BASE_URL;
+// const BASE_URL = import.meta.env.BASE_URL;
 
 const musicText = 
     {
@@ -121,7 +121,7 @@ export const musicData = [
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Natali.jpg', 
         audioSource: '',
         videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Natali-Veter_s_morya_dul.mp4',
-        musicText: musicText.song1
+        musicText: ''
     },
     {
         id: 12, 
