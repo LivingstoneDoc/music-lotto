@@ -174,7 +174,7 @@ export const musicData = [
         name: 'Позвони мне, позвони', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pozvoni.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pozvoni_mne.mp4#t=00:00:57',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pozvoni_mne_opt.mp4#t=00:00:57',
         musicText: ''
     },
     {
