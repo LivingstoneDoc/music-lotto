@@ -171,23 +171,14 @@ export const musicData = [
     {
         id: 17, 
         singer: '', 
-        name: 'Позвони мне, позвони', 
-        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pozvoni.jpg', 
+        name: 'Разговор со счастьем', 
+        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Razgovor.jpg', 
         audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pozvoni_mne_opt.mp4#t=00:00:57',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Razgovor_so_schastem.mp4',
         musicText: ''
     },
     {
         id: 18, 
-        singer: '', 
-        name: 'Если б я был султан', 
-        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Sultan.jpg', 
-        audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Sultan.mp4',
-        musicText: ''
-    },
-    {
-        id: 19, 
         singer: '', 
         name: 'Звенит январская вьюга', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Zvenit.jpg', 
@@ -196,25 +187,7 @@ export const musicData = [
         musicText: ''
     },
     {
-        id: 20, 
-        singer: '', 
-        name: 'Ищу тебя', 
-        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Ishhy.jpg', 
-        audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Ishhu_tebya.mp4#t=00:00:11',
-        musicText: ''
-    },
-    {
-        id: 21, 
-        singer: '', 
-        name: 'На Тихорецкую', 
-        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Tihoreckaya.jpg', 
-        audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Na_Tikhoreckuyu.mp4',
-        musicText: ''
-    },
-    {
-        id: 22, 
+        id: 19, 
         singer: '', 
         name: 'Песенка о медведях', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Medvedi.jpg', 
@@ -223,7 +196,43 @@ export const musicData = [
         musicText: ''
     },
     {
+        id: 20, 
+        singer: '', 
+        name: 'Если б я был султан', 
+        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Sultan.jpg', 
+        audioSource: '',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Sultan.mp4',
+        musicText: ''
+    },
+    {
+        id: 21, 
+        singer: '', 
+        name: 'Позвони мне, позвони', 
+        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pozvoni.jpg', 
+        audioSource: '',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Pozvoni_mne_opt.mp4#t=00:00:57',
+        musicText: ''
+    },
+    {
+        id: 22, 
+        singer: '', 
+        name: 'Ищу тебя', 
+        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Ishhy.jpg', 
+        audioSource: '',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Ishhu_tebya.mp4#t=00:00:11',
+        musicText: ''
+    },
+    {
         id: 23, 
+        singer: '', 
+        name: 'На Тихорецкую', 
+        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Tihoreckaya.jpg', 
+        audioSource: '',
+        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Na_Tikhoreckuyu.mp4',
+        musicText: ''
+    },
+    {
+        id: 24, 
         singer: '', 
         name: 'Проснись и пой', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Prosnis.jpg', 
@@ -231,15 +240,7 @@ export const musicData = [
         videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Prosnis_i_poi.mp4',
         musicText: ''
     },
-    {
-        id: 24, 
-        singer: '', 
-        name: 'Разговор со счастьем', 
-        cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Razgovor.jpg', 
-        audioSource: '',
-        videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Razgovor_so_schastem.mp4',
-        musicText: ''
-    },
+    
     {
         id: 25, 
         singer: 'К/ф Чародеи', 
@@ -261,7 +262,7 @@ export const musicData = [
     {
         id: 27, 
         singer: 'Новогодние детские песни', 
-        name: 'Расскажи, Снегурочка', 
+        name: 'Расскажи, Снегурочка, где была...', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Rasskazhi_Snegurochka.jpg', 
         audioSource: '',
         videoSource: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/opt_Rasskazhi_Snegurochka.mp4#t=00:00:08',
@@ -287,7 +288,7 @@ export const musicData = [
     },
     {
         id: 30, 
-        singer: 'Wham', 
+        singer: 'Wham!', 
         name: 'Last Christmas', 
         cover: 'https://github.com/LivingstoneDoc/music-lotto/releases/download/v1.0/Wham.jpg', 
         audioSource: '',
